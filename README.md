@@ -1,6 +1,13 @@
 # CraftedTreasures
+# Frontend Part made using Angular 
 
+# Backend using Spring Boot Link : https://github.com/bhaskarvora/CraftedTreasures
 
+## Overview
+
+CraftedTreasures is an innovative project designed to showcase and promote handcrafted treasures from artisans around the world. The project aims to create a vibrant online marketplace that connects skilled crafters with enthusiasts who appreciate unique, artisanal products.
+
+This is a comprehensive application built using Spring Boot. It includes features for user authentication, product management, cart management, and order processing. The application utilizes JWT for secure authentication and integrates with Razorpay for handling payments.
 ## Features
 
 - **HandMade Items  Management**: Add, view, and manage products with detailed information.
@@ -18,7 +25,6 @@
 - **Razorpay Integration**: Ensure the Razorpay script is included in `index.html`.
 
 
-## Overview
 - app.module.ts:
 - Purpose: Defines the main module for your Angular application.
 
@@ -30,7 +36,7 @@ drag.directive.ts: Implements a directive for handling drag-and-drop operations.
 ## Services:
 image-processing.service.ts: Handles image processing tasks, including converting image data to File objects and generating secure URLs for image files.
 product-resolve.service.ts: Resolves product data before routing, using a product service and image processing service to handle product details.
-- Main Files:
+## Main Files:
 index.html: The main HTML file that loads the Angular application.
 main.ts: Entry point for bootstrapping the Angular application.
 test.ts: Configures the Angular testing environment for Karma.
@@ -89,4 +95,54 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+
+## Screenshots
+
+![Home Page Crafted](https://github.com/user-attachments/assets/c8cef9fa-c762-4a69-9747-4781c6f81d87)
+Home Page User Side
+
+![Screenshot 2024-09-09 192846](https://github.com/user-attachments/assets/1e9100be-121f-41aa-9f80-17ce871c83d2)
+Home Page Admin Panel
+
+![Cart Page Crafted](https://github.com/user-attachments/assets/7a6062da-16f2-4378-9757-e9ac737ad62f)
+Cart Page 
+
+![Checkout Page Crafted](https://github.com/user-attachments/assets/b557b42b-ee5e-40b5-b6f4-3a63c9087c91)
+Checkout Page 
+
+![Search Filter Crafted](https://github.com/user-attachments/assets/b8f6e8d4-7a42-438b-a7c6-5b40ec61b467)
+Search Filter 
+
+![Database db for Crafted ](https://github.com/user-attachments/assets/6516f044-4474-4c18-b561-429e4dde6353)
+Database db
+
+![Add HandMade Items](https://github.com/user-attachments/assets/1dce92bc-37e4-4218-9ce9-e0b3020b79ae)
+Add Handmade Items 
+
+![Show Ptoduct Details Crafted](https://github.com/user-attachments/assets/8fd38dd8-7a1a-4f9c-b117-ec6c65281b90)
+Show Product Details 
+
+
+![Order Information All](https://github.com/user-attachments/assets/43548b3e-75fe-4994-8ace-21db6670a315)
+Order Information All
+
+![Order Information Filter Placed](https://github.com/user-attachments/assets/1f8f8b61-21f2-43f6-9f7a-828955687fef)
+Order Information Filter Placed 
+
+![Order Information  Delivered Filter](https://github.com/user-attachments/assets/6cf29e1c-e4d2-43fb-b228-264f048c9e47)
+Order Information Filter Delivered
+
+![OrderConfirmation Page Crafted](https://github.com/user-attachments/assets/a1a7b1da-9f87-4df6-962f-699ffdc343c5)
+Order Confirmation Page 
+
+![Razorpay Payment Integration](https://github.com/user-attachments/assets/179d8775-48b6-400f-ad9a-6b568c2281b0)
+
+Razorpay Payment Integration
+
+![Payment Integration Crafted](https://github.com/user-attachments/assets/90f95d99-ff8a-4a59-8268-8719e055e4dd)
+
+Payment Integration
+
+
 
